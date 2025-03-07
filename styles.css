@@ -1,0 +1,114 @@
+body {
+    font-family: "Redacted Script", "Hedvig Letters Sans"; Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    margin: 0;
+}
+
+header {
+    background-color: lavenderblush;
+    color: black;
+    font-size: 20pt;
+    text-align: center;
+    padding: 2em;
+}
+    header img {
+        display:inline-block;
+        width: 100px;
+        height: auto;
+        vertical-align: middle;
+        border-radius: 50%;
+    
+    }
+
+
+    header a {
+        color: black;
+    }
+
+main {
+    background-color: white;
+    color: black;
+    margin: 3%
+}
+
+main h1 {
+    text-align: center;
+}
+
+    main a {
+        color: blue;
+    }
+    h1 {
+        text-align: center;
+        color: black;}
+
+    main img {
+        display: block;
+        max-width: 50%;
+        max-height: 50%;
+}
+
+    h2 {
+        text-align: center;
+        color: black;
+
+    }
+
+    li {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+        article { 
+            border: 1px solid gray;
+            padding: 2em;
+            margin: 1em;
+        }
+
+        figure {
+            margin: 1em 0;
+        }
+            figure img {
+                max-width: 100%;
+                height: auto;
+                
+            }
+            
+            #more {display: none;}
+
+footer {
+    background-color: gainsboro;
+    color: black;
+    text-align: center;
+    padding: 2em;
+    text-align: center;
+
+}
+
+    footer a {
+        display: inline-block;
+        color: black;
+        
+    }
+
+    footer img {
+        display: inline-block;
+        width: 30px;
+    height: auto;
+    vertical-align: middle;
+    }
+
+@media only screen and (min-width: 800px) {
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 1em;
+    row-gap: 1em;
+    margin: 50px 20%;
+}
+
+   
+article{
+    margin: 0;
+}
+
